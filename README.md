@@ -1,5 +1,6 @@
-# Tyago's Tutorial of Overlord
-https://www.youtube.com/playlist?list=PLPY-0In6XQ1s73zsz1Tcmu5T2hClxWTsR
+# Reproducible Setup
+For this project, we'll be using Unity version: 6000.1.17f1
+Alongside this repository's version of Overlord and its dependencies, we'll also be using ML Agents' release 23 (https://github.com/Unity-Technologies/ml-agents/releases/tag/release_23_tag)
 
 # Installing
 
@@ -18,3 +19,6 @@ https://github.com/varalta/Overlord-Tool.git<br>
 The last repository refers to this one, and we'll futurely structure a specific release to facilitate reproducibility.
 
 After importing the packages, you're good to go and use Overlord within Unity. 
+
+# Resources: Tyago's Tutorial of Overlord
+https://www.youtube.com/playlist?list=PLPY-0In6XQ1s73zsz1Tcmu5T2hClxWTsR
