@@ -1,6 +1,6 @@
 # Reproducible Setup
-For this project, we'll be using Unity version: 6000.1.17f1
-Alongside this repository's version of Overlord and its dependencies, we'll also be using ML Agents' release 23 (https://github.com/Unity-Technologies/ml-agents/releases/tag/release_23_tag)
+For this project, we'll be using Unity version: 6000.1.17f1 (https://unity.com/releases/editor/whats-new/6000.1.17f1)<br>
+Alongside this repository's version of Overlord and its dependencies, we'll also be using ML Agents' release 23 (https://github.com/Unity-Technologies/ml-agents/releases/tag/release_23_tag)<br>
 
 # Installing
 
