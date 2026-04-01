@@ -1,24 +1,28 @@
-# Reproducible Setup
-For this project, we'll be using Unity version: 6000.1.17f1 (https://unity.com/releases/editor/whats-new/6000.1.17f1)<br>
-Alongside this repository's version of Overlord and its dependencies, we'll also be using ML Agents' release 23 (https://github.com/Unity-Technologies/ml-agents/releases/tag/release_23_tag)<br>
+## Reproducible Setup
+To ensure everything runs smoothly and to avoid version conflicts, please use the following environment:
 
-# Installing
+* **Unity Version:** `6000.1.17f1` [ (Download Here)](https://unity.com/releases/editor/whats-new/6000.1.17f1)
+* **ML Agents:** `Release 23` [ (View Tag)](https://github.com/Unity-Technologies/ml-agents/releases/tag/release_23_tag)
 
-Within a Unity project, click on Window and open Package Manager:
-<img width="576" height="293" alt="image" src="https://github.com/user-attachments/assets/bce2fced-d51f-43c1-aea0-d15b5940c883" />
+## Dependency Chain
+The following packages **must** be imported via the Unity Package Manager (UPM) in the specific order listed below before importing Overlord.
 
-Clique na seta no canto superior esquerdo do Package Manager e opte por baixar pacote por link git:
-<img width="441" height="365" alt="image" src="https://github.com/user-attachments/assets/8160b493-b8ef-41e3-b9db-7df03fd29791" />
+### 1. External Dependencies
+| Order | Package Name | Git URL |
+| :--- | :--- | :--- |
+| 1 | **MyBox** | `https://github.com/Deadcows/mybox.git#1.8.0` |
+| 2 | **Reorderable List** | `https://github.com/cfoulston/Unity-Reorderable-List.git#1.0.1` |
+| 3 | **Dialogue Module** | `https://github.com/FellowshipOfTheGame/DialogueModule.git#upm` |
 
-Por fim, adicione os pacotes a seguir, na mesma ordem:<br>
-https://github.com/Deadcows/mybox.git#1.8.0<br>
-https://github.com/cfoulston/Unity-Reorderable-List.git#1.0.1<br>
-https://github.com/FellowshipOfTheGame/DialogueModule.git#upm<br>
-https://github.com/varalta/Overlord-Tool.git<br>
+### 2. Main Package
+Finally, import the Overlord package itself:
+`https://github.com/varalta/Overlord-Tool.git`
 
-The last repository refers to this one, and we'll futurely structure a specific release to facilitate reproducibility.
+> [!TIP]
+> **How to install via Git:**
+> In your Unity project, go to **Window** > **Package Manager**. Click the **+** icon in the top left, select **"Add package from git URL..."**, and paste the links above.
 
-After importing the packages, you're good to go and use Overlord within Unity. 
+## Learning Resources
+If you are new to Overlord, check out the official tutorial series recorded by Tyago Teoi to get up and running quickly.
 
-# Resources: Tyago's Tutorial of Overlord
-https://www.youtube.com/playlist?list=PLPY-0In6XQ1s73zsz1Tcmu5T2hClxWTsR
+* **[Overlord V1 Tutorial Playlist](https://www.youtube.com/playlist?list=PLPY-0In6XQ1s73zsz1Tcmu5T2hClxWTsR)**
