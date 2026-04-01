@@ -23,6 +23,6 @@ Finally, import the Overlord package itself:
 > In your Unity project, go to **Window** > **Package Manager**. Click the **+** icon in the top left, select **"Add package from git URL..."**, and paste the links above.
 
 ## Learning Resources
-If you are new to Overlord, check out the official tutorial series recorded by Tyago Teoi to get up and running quickly.
+If you are new to Overlord, check out the official tutorial series recorded in Portuguese by Tyago Teoi to get up and running quickly.
 
 * **[Overlord V1 Tutorial Playlist](https://www.youtube.com/playlist?list=PLPY-0In6XQ1s73zsz1Tcmu5T2hClxWTsR)**
